@@ -97,10 +97,10 @@ class SignatureModule implements
 
     /**
      * @see https://www.globalsign.com/en/resources/apis/api-documentation/qss_api_v1.html#users__email__identity_post
-     * @param string $subjectDn List of Distinguished Name attributes to include in the certificate. See RFC 5280#4.1.2.6
+     * @param array $subjectDn List of Distinguished Name attributes to include in the certificate. See RFC 5280#4.1.2.6
      * @return void
      */
-    public function setSubjectDn(string $subjectDn)
+    public function setSubjectDn(array $subjectDn)
     {
         $this->subjectDn = $subjectDn;
     }
