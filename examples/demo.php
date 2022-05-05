@@ -47,6 +47,8 @@ $client = new Client(
 
 // note: you have to create the user first and connect your app to it
 //var_dump($client->createUser($settings['email'], 'Given name', 'Surname', '0049123456789'));
+//var_dump($client->deleteUser($settings['email'])); // if you need to delete the user
+//die();
 
 $reader = new SetaPDF_Core_Reader_File($file);
 // create a writer instance
