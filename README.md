@@ -58,24 +58,6 @@ and execute `composer update`. You need to define the `repository` to evaluate t
 [SetaPDF-Signer](https://www.setasign.com/signer) component (see
 [here](https://getcomposer.org/doc/faqs/why-can%27t-composer-load-repositories-recursively.md) for more details).
 
-### Trial version
-By default, this packages depends on a licensed version of the [SetaPDF-Signer](https://www.setasign.com/signer) component.
-If you want to use it with an evaluation version please use following in your composer.json:
-
-```json
-{
-    "require": {
-        "setasign/seta-pdf-signer-addon-global-sign-qss": "dev-trial"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://www.setasign.com/downloads/"
-        }
-    ]
-}
-```
-
 ## License
 
 This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
