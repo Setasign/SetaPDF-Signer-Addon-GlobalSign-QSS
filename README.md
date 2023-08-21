@@ -43,7 +43,7 @@ Add following to your composer.json:
 ```json
 {
     "require": {
-        "setasign/seta-pdf-signer-addon-global-sign-qss": "^1.0"
+        "setasign/setapdf-signer-addon-global-sign-qss": "^1.0"
     },
     "repositories": [
         {

@@ -1,5 +1,5 @@
 {
-    "name": "setasign/seta-pdf-signer-addon-global-sign-qss",
+    "name": "setasign/setapdf-signer-addon-global-sign-qss",
     "description": "A SetaPDF-Signer component signature module for the GlobalSign Qualified Signing Service.",
     "type": "library",
     "license": "MIT",
@@ -14,7 +14,7 @@
         "ext-json": "*",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
-        "setasign/setapdf-signer": "^2.38"
+        "setasign/setapdf-signer": "^2.41"
     },
     "require-dev": {
         "ext-openssl": "*",
